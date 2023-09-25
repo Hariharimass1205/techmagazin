@@ -1,0 +1,309 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:wght@300;400;600;700&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+html,
+body {
+  font-family: "Rubik", sans-serif;
+}
+body {
+  background-color: #0b0c0f;
+}
+.title {
+  background-color: #00cc6a;
+  text-align: center;
+  padding: 20px;
+  font-size: 19px;
+}
+.title p {
+  font-size: 10px;
+}
+.title strong {
+  text-decoration: underline;
+}
+.header {
+  background-image: url("img/hulu wallpaer...jpeg");
+  background-repeat: no-repeat;
+  background-position: center center / cover;
+  height: 690px;
+}
+.top1 {
+  height: 20px;
+  padding: 30px;
+  padding-left: 40px;
+  width: 60px;
+  display: flex;
+}
+.topterm {
+  padding: 20px;
+  color: white;
+}
+.header-content {
+  text-align: center;
+  color: #00cc6a;
+  margin-top: 80px;
+  font-weight: 400;
+}
+.logo {
+  height: 70px;
+  width: 300px;
+  margin-top: 20px;
+}
+
+.header-text-1 {
+  color: white;
+  font-size: 27px;
+  margin-top: 17px;
+}
+.getthem {
+  background-color: #00cc6a;
+  width: 330px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  margin-top: 30px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.aftergetthem {
+  color: white;
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.afterheader2 {
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}
+.afterheader2 h3 {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  color: #00cc6a;
+  font-size: 13px;
+  font-weight: 100px;
+}
+.afterheader2 h1 {
+  font-size: 55px;
+  margin-bottom: 30px;
+}
+.afterheader2 p {
+  margin-bottom: 30px;
+}
+.pics1,
+.pics2,
+.pics3,
+.pics4 {
+  display: flex;
+  flex-direction: row;
+  height: 450px;
+  width: 300px;
+  margin: 16px;
+  padding: 4px;
+}
+.fourphoto {
+  display: flex;
+  list-style-type: none;
+  padding: 10px;
+  position: relative;
+}
+
+.text1,
+.text2,
+.text3,
+.text4 {
+  position: absolute;
+  top: 40px;
+  color: white;
+  padding: 10px;
+}
+.pics1:hover,
+.pics2:hover,
+.pics3:hover,
+.pics4:hover {
+  cursor: pointer;
+  border-color: rgb(187, 180, 180);
+  border-style: solid;
+  border-width: 4px;
+  border-radius: 10px;
+}
+.below4pic {
+  color: white;
+  text-align: right;
+  font-size: 10px;
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
+.HEADER3 {
+  color: #00cc6a;
+  margin-top: 100px;
+  font-weight: 100px;
+  margin-bottom: 20px;
+}
+.livetv {
+  color: white;
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+.thirdpara {
+  color: white;
+  font-size: 18px;
+  font-weight: 80px;
+}
+.abovebtn {
+  color: #00cc6a;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 10px;
+}
+.lastbtn {
+  background-color: #00cc6a;
+  padding: 16px;
+  margin: 20px;
+  width: 210px;
+  border-width: 2px;
+  border-radius: 8px;
+  border-style: solid;
+}
+.secondpara {
+  font-size: 10px;
+  color: grey;
+  margin-bottom: 30px;
+}
+.viewchannel {
+  padding: 30px;
+  padding-top: 20px;
+  font-style: none;
+  color: white;
+}
+.threestart {
+  width: 100%;
+  margin-top: 70px;
+}
+.nextwallpaper {
+  position: relative;
+}
+.text1in3 ul {
+  position: absolute;
+  display: flex;
+  text-decoration: none;
+  top: 80px;
+  left: 30px;
+  color: white;
+  width: 200px;
+}
+.text1in3 ul li {
+  justify-content: space-evenly;
+  margin-left: 70px;
+  list-style: none;
+  margin-top: 200px;
+  margin-left: 50px;
+  padding-left: 50px;
+}
+
+.text2in3 {
+  position: absolute;
+  top: 350px;
+  left: 130px;
+  color: white;
+  width: 300px;
+  font-size: 50px;
+}
+.text3in3 {
+  position: absolute;
+  top: 450px;
+  left: 130px;
+  width: 500px;
+  color: white;
+}
+.fourlogo ul {
+  position: absolute;
+  display: flex;
+  list-style: none;
+  background-size: cover;
+  top: 550px;
+  left: 130px;
+  width: 20px;
+  height: 30px;
+}
+.text4in3 {
+  position: absolute;
+  top: 630px;
+  left: 130px;
+  width: 500px;
+  font-size: 10px;
+  display: flex;
+  color: white;
+}
+.footer1 h1 {
+  margin: 40px;
+  color: white;
+  font-size: 55px;
+}
+.footer1 p {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 30px;
+  font-weight: 100px;
+}
+.footerlogos {
+  display: flex;
+  margin: 30px;
+  list-style: none;
+  font-size: 15px;
+}
+.footerlogos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footerlogos div {
+  margin: 60px;
+}
+.end {
+  color: grey;
+}
+.end {
+  background-color: rgba(255, 255, 255, 0.863);
+  display: inline-flex;
+  width: 100%;
+  height: 500px;
+  font-size: 15px;
+  justify-content: center;
+  list-style: none;
+  font-weight: 1px;
+}
+.browser ul {
+  margin-right: 60px;
+  margin-top: 50px;
+  padding: 10px;
+  list-style: none;
+}
+.tvshows ul {
+  margin-right: 80px;
+  margin-top: 130px;
+  list-style: none;
+}
+.max ul {
+  margin-right: 60px;
+  margin-top: 130px;
+  list-style: none;
+}
+.disney ul {
+  margin-right: 70px;
+  margin-top: 130px;
+  list-style: none;
+}
+.help ul {
+  margin-right: 80px;
+  margin-top: 50px;
+
+  list-style: none;
+}
+.aboutus ul {
+  margin-right: 80px;
+  margin-top: 50px;
+  list-style: none;
+}
